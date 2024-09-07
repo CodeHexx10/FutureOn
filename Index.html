@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Future On</title>
+  </head>
+  <style>
+    body {
+      background: linear-gradient(
+        to right,
+        rgb(181, 187, 245),
+        #fffcff,
+        rgb(243, 243, 197)
+      );
+      background-size: 100% 100%;
+      font-family: "Arial", sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      text-align: center;
+      color: white;
+    }
+
+    h2 {
+      background: linear-gradient(270deg, #5264f9, #c72ff8);
+      background-size: 200% 200%;
+      -webkit-background-clip: text;
+      color: transparent;
+      font-style: normal;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 1px;
+      margin-bottom: 20px;
+      animation: gradientShift 5s ease infinite;
+    }
+    @keyframes gradientShift {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    h1 {
+      background: linear-gradient(270deg, #5264f9, #c72ff8);
+      background-size: 200% 200%;
+      -webkit-background-clip: text;
+      color: transparent;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      margin: 0;
+      font-size: 4rem;
+      letter-spacing: 2px;
+      display: inline-flex;
+      align-items: center;
+      margin-bottom: 70px;
+      animation: gradientShift 5s ease infinite;
+      text-shadow: 0 10px 20px rgba(82, 100, 249, 0.5),
+        0 20px 40px rgba(199, 47, 248, 0.5);
+    }
+    @keyframes gradientShift {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    img.letter-o {
+      margin: 0 10px;
+      vertical-align: middle;
+    }
+
+    button {
+      background-color: white;
+      border: none;
+      border-radius: 30px;
+      padding: 20px 60px;
+      font-size: 1.5rem;
+      font-weight: bold;
+      background: linear-gradient(180deg, #5264f9, #c72ff8);
+      background-size: 200% 200%;
+      -webkit-background-clip: text;
+      color: transparent;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      transition: transform 0.2s ease-in-out;
+      animation: gradientShift 5s ease infinite;
+    }
+    @keyframes gradientShift {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(121, 132, 225, 0.6),
+        0 10px 20px rgba(216, 141, 241, 0.5);
+    }
+
+    button:active {
+      transform: scale(1);
+    }
+  </style>
+
+  <body>
+    <div class="container">
+      <h2>WELCOME TO</h2>
+      <h1>
+        FUTURE
+        <img
+          src="—Pngtree—chatbot in modern semi circle_8927769.png"
+          height="100px"
+          alt="chatbot image"
+          class="letter-o"
+        />
+        N
+      </h1>
+      <br /><br />
+      <button type="button" onclick="window.location.href='/Query.html'">
+        Start Your Journey
+      </button>
+    </div>
+  </body>
+</html>
